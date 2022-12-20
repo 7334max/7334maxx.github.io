@@ -1,0 +1,1055 @@
+* {
+  margin: 0;
+  text-decoration:none;
+
+}
+.hero-text {
+   line-height:30px;
+   position: absolute;
+   top:15%;
+   left:10%;
+   font-weight: 600;
+   text-decoration: none;
+   color: #fff;
+  animation: flicker 3.5s infinite alternate;
+   font-size: 50px;
+
+   text-shadow:
+    0 0 8px #fff,
+    0 0 50px #f09,
+    0 0 25px #fff,
+    0 0 200px #f09,
+    0 0 13px #f09,
+    0 0 17px #fff;
+
+}
+button a{
+  color:#fff;
+  font-size: 25px;
+  line-height: 10px;
+}
+.hero-image{
+  background-image: url("assets/Background.gif");
+  background-size:cover;
+  width: 100%;
+  height: 110vh;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+
+}
+.logo{
+  width: 60px;
+  z-index:3;
+}
+.logo:hover{
+  animation: 1.5s spin linear infinite;
+}
+.navbar{
+  width:100%;
+  height:10%;
+  display:flex;
+  margin: auto;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.mainnavbar{
+  width:100%;
+  height:10%;
+  display:flex;
+  margin: auto;
+  align-items: center;
+  float: left;
+  list-style: none;
+  justify-content: space-between;
+  color:#fff;
+  background: transparent;
+  font-size: 20px;
+  text-shadow:
+  0 0 8px #fff,
+  0 0 50px #f09,
+  0 0 25px #fff,
+  0 0 200px #f09,
+  0 0 13px #f09,
+  0 0 17px #fff;
+background-image: url("assets/neon.gif");
+z-index: 1;
+}
+.mainnavbar2{
+  width: 100vw;
+  height:60px;
+  background: #fff;
+  box-sizing: border-box;
+  line-height: 60px;
+  text-align: center;
+  background-image: url("assets/neon.gif");
+  z-index: 1;
+
+}
+
+
+.mainnavbar2 nav{
+  display: flex;
+  position: relative;
+
+}
+.mainnavbar2 nav label{
+  flex: 1;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+
+}
+.mainnavbar2 nav label a{
+  position: relative;
+  z-index: 2;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow:
+  0 0 8px #fff,
+  0 0 50px #f09,
+  0 0 25px #fff,
+  0 0 200px #f09,
+  0 0 13px #f09,
+  0 0 17px #fff;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.mainnavbar2 nav #home:checked ~ label.home a,
+.mainnavbar2 nav #Dangers:checked ~ label.Dangers a,
+.mainnavbar2 nav #Typeofdrugs:checked ~ label.Typeofdrugs a,
+.mainnavbar2 nav #Listofdrugs:checked ~ label.Listofdrugs a{
+  color: #fff;
+}
+.mainnavbar2 nav label a i{
+  justify-content: space-between;
+  font-size: 25px;
+  margin: 0 7px;
+
+}
+.mainnavbar2 nav .tab{
+  position: absolute;
+  height: 100%;
+  width: 18%;
+  left: 6%;
+  bottom: 0;
+  background: #A40606;
+  border-radius: 50px;
+  transition: 0.6s cubic-bezier(0.5, -0.55, 0.1, 1);
+  border: 0.2rem solid#fff;
+  border-radius: 1.5rem;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 50px #f09,
+  0 0 25px #fff,
+  0 0 200px #f09,
+  0 0 13px #f09,
+  0 0 2px #f09,
+  0 0 17px #fff;
+}
+.mainnavbar2 nav input{
+display: none;
+}
+.mainnavbar2 nav #home:checked ~ label.home a{
+  color: #fff;
+}
+.mainnavbar2 nav #Dangers:checked ~ .tab{
+  left:30%;
+}
+.mainnavbar2 nav #Typeofdrugs:checked ~ .tab{
+  left: 55%;
+}
+.mainnavbar2 nav #Listofdrugs:checked ~ .tab{
+  left: 80%;
+}
+.Findhelp p{
+  top: 35%;
+  left:2.5%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  color:#fff;
+  box-shadow: 0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 100px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  background-color: gray;
+
+}
+
+.Findhelp h2{
+  top:10%;;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow: 0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 75px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.aboutpage{
+
+  overflow-x: hidden;
+  background-color: black;
+
+}
+.Backgroundgif {
+  background-image: url("assets/giphy.gif");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  opacity: .2;
+}
+.ulist{
+  position: absolute;
+  padding:10px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.ulist ol{
+  list-style-type: none;
+}
+hr {
+  width:100%;
+  height:20px;
+  background-color: #0047ab;
+  position: absolute;
+  top:37%;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 50px #1F51FF,
+  0 0 25px #fff,
+  0 0 200px #1F51FF,
+  0 0 13px #1F51FF,
+  0 0 2px #1F51FF,
+  0 0 17px #fff;
+}
+.Introtext {
+  top: 15%;
+  left: 4%;
+  color:#fff;
+  opacity:1;
+  position: absolute;
+  border:0.2rem solid #fff;
+  width:40%;
+  font-size: 30px;
+  opacity:0.6;
+}
+.Introtext h3{
+  padding:10px;
+  position: relative;
+}
+.Introtext:hover{
+  opacity:1;
+  text-shadow:
+  0 0 8px #fff,
+  0 0 50px #1F51FF,
+  0 0 25px #fff,
+  0 0 200px #1F51FF,
+  0 0 13px #1F51FF,
+  0 0 2px #1F51FF,
+  0 0 17px #fff;
+  border color:
+  0 0 8px #fff,
+  0 0 50px #1F51FF,
+  0 0 25px #fff,
+  0 0 200px #1F51FF,
+  0 0 13px #1F51FF,
+  0 0 2px #1F51FF,
+  0 0 17px #fff;
+}
+
+.Druglistinfo {
+  top: 38%;
+  left: 55%;
+  width: 40%;
+  color: #fff;
+  position: absolute;
+  opacity: 0.6;
+  font-weight: 600;
+  font-size:40px;
+  border: 0.2rem solid #fff;
+  border-color: #fff;
+  border-radius: ;
+  background-color: black;
+  display: flex;
+}
+.Druglistinfo p{
+  padding:5px;
+
+}
+.Druglistinfo:hover{
+  opacity:1;
+  text-shadow:
+  0 0 8px #fff,
+  0 0 50px #1F51FF,
+  0 0 25px #fff,
+  0 0 200px #1F51FF,
+  0 0 13px #1F51FF,
+  0 0 2px #1F51FF,
+  0 0 17px #fff;
+  border color:
+  0 0 8px #fff,
+  0 0 50px #1F51FF,
+  0 0 25px #fff,
+  0 0 200px #1F51FF,
+  0 0 13px #1F51FF,
+  0 0 2px #1F51FF,
+  0 0 17px #fff;
+}
+.Aboutme{
+  border: 0.2rem solid #fff;
+  border-color: #fff;
+  border-radius: ;
+  background-color: black;
+  top:70%;
+  left:2%;
+  color: #fff;
+  height:180px;
+  width:35%;
+  position: absolute;
+  opacity: 0.6;
+  font-weight: 600;
+  font-size:40px;
+}
+
+.Aboutme p{
+  left:27%;
+  position:absolute;
+
+}
+.Aboutmeex {
+  top:30%;
+  left: 5%;
+  position: relative;
+  font-size: 20px;
+}
+.Aboutme:hover, .Aboutmeex:hover{
+  opacity:1;
+  text-shadow:
+  0 0 8px #fff,
+  0 0 50px #1F51FF,
+  0 0 25px #fff,
+  0 0 200px #1F51FF,
+  0 0 13px #1F51FF,
+  0 0 2px #1F51FF,
+  0 0 17px #fff;
+  border color:
+  0 0 8px #fff,
+  0 0 50px #1F51FF,
+  0 0 25px #fff,
+  0 0 200px #1F51FF,
+  0 0 13px #1F51FF,
+  0 0 2px #1F51FF,
+  0 0 17px #fff;
+}
+
+
+
+}
+.socials{
+  top: 10%;
+  left: 96%;
+  position: absolute;
+
+}
+
+.logoref{
+top: 0%;
+position: absolute;
+z-index: 3;
+}
+
+button{
+  background:transparent;
+  text-decoration:none;
+  font-size: 20px;
+  border:none;
+  padding: 5px 5px;
+  color:#fff;
+  text-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #f09,
+  0 0 25px #fff,
+  0 0 200px #f09,
+  0 0 13px #f09,
+  0 0 17px #fff;
+
+}
+
+.buttonsize{
+  width:40px;
+}
+.searchbar{
+  position:absolute;
+  z-index: 2;
+
+
+
+
+}
+form {
+  background-color: #DC143C;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input {
+  all: unset;
+  font: 16px system-ui;
+  font-weight: 700;
+  color: #280137;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+::placeholder {
+  color: #280137;
+  opacity: 0.5;
+}
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  color: #fff;
+}
+
+svg {
+  color: #fff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.imgeffect img{
+  width: 50px;
+  animation: move 8s linear infinite;
+
+}
+.imgeffect img:nth-child(1){
+    animation-delay: -2s;
+    width: 55px;
+}
+.imgeffect img:nth-child(2){
+    animation-delay: 3s;
+    width: 33px;
+}
+.imgeffect img:nth-child(3){
+    animation-delay: 1s;
+    width: 62px;
+
+}
+.imgeffect img:nth-child(4){
+    animation-delay: 7s;
+    width: 23px;
+}
+.imgeffect img:nth-child(5){
+    animation-delay: 12s;
+    width: 80px;
+
+}
+.imgeffect img:nth-child(6){
+    animation-delay: 4s;
+}
+
+.imgeffect{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -70px;
+  overflow:show;
+
+}
+
+.imgeffect2 img{
+  width:50px;
+  animation: move 14s linear infinite;
+}
+.imgeffect2 img:nth-child(1){
+    animation-delay: 11s;
+    animation-direction: reverse;
+    width: 63px;
+}
+.imgeffect2 img:nth-child(2){
+    animation-delay: 5s;
+    animation-direction: reverse;
+    width: 44px;
+}
+.imgeffect2 img:nth-child(3){
+    animation-delay: 20s;
+    animation-direction: reverse;
+}
+.imgeffect2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -70px;
+  overflow:show;
+}
+.Druglistpage{
+  background-image: url("assets/Druglistbg.gif");
+  background-size: cover;
+  border: 0.2rem solid black;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+  width: 100%;
+  height:120vh;
+  opacity:.8;
+}
+#Druglist{
+
+  border-collapse: collapse;
+  width: 40%;
+  color: #fff;
+  top: 20%;
+  left:15%;
+  position:absolute;
+  border: 0.2rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+
+}
+#Druglist td,#Druglist th {
+  border: 0.15rem solid #fff;
+  padding: 10px;
+  color: #fff;
+  font-size: 30px;
+}
+a{
+  color: #fff;
+}
+.ulilst{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+.alltypes{
+  width:50%;
+  position: absolute;
+  top:40%;
+  left:25%;
+  border: 0.2rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #00008B,
+  0 0 25px #fff,
+  0 0 200px #00008B,
+  0 0 13px #00008B,
+  0 0 17px #fff;
+}
+.alltypes h2{
+  line-height: 40px;
+  border: 0.2rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #00008B,
+  0 0 25px #fff,
+  0 0 50px #00008B,
+  0 0 13px #00008B,
+  0 0 17px #fff;
+  width:40%;
+}
+
+.searchbarinfo {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 365px;
+    height: 400px;
+    color: #fff;
+    overflow: hidden;
+    border: 0.2rem solid #fff;
+    box-shadow:
+    0 0 8px #fff,
+    0 0 10px #fff,
+    0 0 50px #990000,
+    0 0 25px #fff,
+    0 0 200px #990000,
+    0 0 13px #990000,
+    0 0 17px #fff;
+
+
+}
+.searchbarinfo .imgBx,
+.searchbarinfo .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.searchbarinfo .imgBx {
+    top: 10%;
+    left: 5%;
+}
+.searchbarinfo:hover .imgBx {
+    top: 40%;
+    left: -100%;
+}
+
+.searchbarinfo .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.searchbarinfo:hover .details {
+    top: 0;
+    left: 0%;
+}
+.drugitems{
+  width: 100%;
+  height:800vh;
+  color: #000;
+  position:absolute;
+  top:130%;
+  left: 0%;
+  border:0.2rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+  line-height: 1000px;
+  margin: 10px;
+}
+.Amphetamine{
+border: 0.4rem solid #fff;
+box-shadow: inherit;
+line-height: 25px;
+width: 50vw;
+top: 1%;
+position: absolute;
+margin: 10px;
+
+}
+.Amphetaminebg{
+  left: 110%;
+  top: -20%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.Cocaine{
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 8%;
+  position: absolute;
+  margin: 10px;
+}
+.Cocainebg1{
+  left: 110%;
+  top: 25%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.Cocaplant{
+  left:150%;
+  top:-4%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.FA {
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 16%;
+  position: absolute;
+  margin: 10px;
+}
+.FAbg {
+  left: 120%;
+  top: 10%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.GHB{
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 25%;
+  position: absolute;
+}
+.GHBbg{
+  left:120%;
+  top: 2%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+
+}
+.Hashandweed{
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 35%;
+  position: absolute;
+}
+.Hashbg{
+  left:120%;
+  top:-5%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+
+}
+.Weedbg{
+  left:105%;
+  top:35%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+  z-index: -1;
+}
+.Herion{
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 48%;
+  position: absolute;
+}
+.Herionbg{
+  left:103%;
+  top:5%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.Opiumplant{
+  left:150%;
+  top:10%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.XTC {
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 54%;
+  position: absolute;
+}
+.XTCbg {
+  left:150%;
+  top:10%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.MDMAbg {
+  left:110%;
+  top:5%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.Ketamine {
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 61%;
+  position: absolute;
+}
+.Ketbg {
+  left:110%;
+  top: 12%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.LSD {
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 68%;
+  position: absolute;
+  height: 400px;
+}
+.LSDbg {
+  left:110%;
+  top: 12%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.LSDeffect {
+  left:60%;
+  top: 42%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.MushroomsandTruffles{
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 78%;
+  position: absolute;
+}
+.Mushrooms{
+  left:130%;
+  top: -5%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.Truffle{
+  left:102%;
+  top: 50%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+.MMCandMMC{
+  border: 0.4rem solid #fff;
+  box-shadow: inherit;
+  line-height: 25px;
+  width: 50vw;
+  top: 90%;
+  position: absolute;
+}
+.MMC{
+  left:120%;
+  top: 2%;
+  position: absolute;
+  border: 0.4rem solid #fff;
+  box-shadow:
+  0 0 8px #fff,
+  0 0 10px #fff,
+  0 0 50px #990000,
+  0 0 25px #fff,
+  0 0 200px #990000,
+  0 0 13px #990000,
+  0 0 17px #fff;
+}
+
+.searchbarinfo .details p {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+    color: #fff;
+}
+
+@keyframes flicker{
+  100% {
+    text-shadow:
+    0 0 8px #fff,
+    0 0 50px #f09,
+    0 0 25px #fff,
+    0 0 200px #f09,
+    0 0 13px #f09,
+    0 0 17px #fff;
+  }
+  0 {
+    text-shadow:
+    0 0 10px #fff,
+    0 0 65px #f09,
+    0 0 30px #fff,
+    0 0 240px #f09,
+    0 0 16px #f09,
+    0 0 22px #fff;
+  }
+}
+
+@keyframes move{
+  0%{
+      transform: translateY(0);
+      opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-70vh);
+    opacity: 0;
+    }
+}
+
+  @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  h1{
+    font-size: 36px;
+
+  }
+}
